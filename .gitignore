@@ -19,7 +19,39 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directory
-# Deployed apps should consider commenting this line out:
-# see https://npmjs.org/doc/faq.html#Should-I-check-my-node_modules-folder-into-git
-node_modules
+node_modules/
+temp/
+*.swp
+npm-debug.log
+
+#### Windows Git Ignore ####
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+#### Mac Git Ignore ####
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+##### IntelliJ Git Ignore ####
+*.iml
+*.ipr
+*.iws
+.idea/
+
+#### Eclipse Git Ignore ####
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+u.tmp
