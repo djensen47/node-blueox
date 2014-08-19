@@ -1,4 +1,4 @@
-blueox
-======
+flannel
+=======
 
-A companion to [bunyan](trentm/bunyan). Provides a simple plugin and configuration mechanism.
+Flannel keeps [Bunyan](trentm/bunyan) warm. This module provides a simple plugin and configuration mechanism for use with bunyan.
