@@ -1,7 +1,7 @@
 {
   "name": "blueox",
   "version": "0.0.1",
-  "description": "A companion to bunyan. Provides a simple plugin and configuration mechanism.",
+  "description": "Flannel wraps around bunyan to provides a simple plugin and configuration mechanisms.\n\nThis module is currently a work in progress, use at your own risk.",
   "private": true,
   "main": "blueox.js",
   "scripts": {
